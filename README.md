@@ -76,3 +76,21 @@ int[] minute; = new int[3];
 float[] second; = new float[3];
 ```
 
+* 객체지향적 코드
+```
+class Time {
+    int hour;
+    int minute;
+    float second;
+}
+
+Time t1 = new Time();
+Time t2 = new Time();
+Time t3 = new Time();
+
+Time[] t = new Time[3];
+t[0] = new Time();
+t[1] = new Time();
+t[2] = new Time();
+
+```
